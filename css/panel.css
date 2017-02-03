@@ -1,0 +1,134 @@
+.panel .slidedown .glyphicon,
+		.chat .glyphicon {
+    margin-right: 5px;
+}
+
+.panel
+{
+    width:320px;
+}
+
+.chat-panel .panel-body {
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.login-panel {
+    margin-top: 25%;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-black {
+    border-color: black;
+}
+
+.panel-black .panel-heading {
+    border-color: white;
+    color: #fff;
+    background-color: black;
+}
+
+.panel-black a {
+    color:  black;
+}
+
+.panel-black a:hover {
+    color: grey;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+.panel-grey {
+    border-color: grey;
+}
+
+.panel-grey .panel-heading {
+    border-color: grey;
+    color: #fff;
+    background-color: grey;
+}
+
+.panel-grey a {
+    color: black;
+}
+
+.panel-grey a:hover {
+    color: blue;
+}
+
+.panel-orange {
+    border-color: indigo;
+}
+
+.panel-orange .panel-heading {
+    border-color: indigo;
+    color: #fff;
+    background-color: indigo;
+}
+
+.panel-orange a {
+    color: indigo;
+}
+
+.panel-orange a:hover {
+    color: violet;
+}
+
+.huge {
+    font-size: 40px;
+}

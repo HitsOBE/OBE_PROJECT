@@ -1,0 +1,39 @@
+<html>
+<head>
+<style type="text/css">
+            .error {
+                border:2px solid red;
+            }
+        </style>
+<script type="text/javascript">
+function validation()
+{
+var a = document.form.name.value;
+if(a=="")
+{
+document.form.name.style.borderColor="red";
+alert("Please Enter Your Name");
+return false;
+}
+if(!isNaN(a))
+{
+document.form.name.style.borderColor="red";
+alert("Please Enter Only Characters");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="form" method="post" onsubmit="return validation()">
+<tr>
+<td> Your Name:</td>
+<td><input type="text" name="name""></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" name="sub" value="Submit"></td>
+</tr>
+</form>
+</body>
+</html>
